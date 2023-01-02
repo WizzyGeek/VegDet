@@ -1,4 +1,14 @@
-<center><h1>VegDet</h1></center>
+<div align="center">
+    <h1>VegDet</h1>
+</div>
+
+<div align="center">
+    <img src="./classifier_eg.png">
+</div>
+
+<div align="center">
+    Classifying vegetables
+</div>
 
 ## Install
  - Fedora
@@ -53,3 +63,4 @@ TensorFlow: Large-scale machine learning on heterogeneous systems,
    > For classifier model dataset
 
 > *Thanks to Google colab, for providing free GPU compute, which greatly helped this project!*
+
