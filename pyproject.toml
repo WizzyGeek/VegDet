@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "vegdet"
+version = "0.1.0"
+description = "A CSE project for classifying vegetable images"
+authors = ["WizzyGeek <ojasscoding@gmail.com>"]
+license = "MIT"
+
+packages = [
+    {include = "vegdet"},
+    {include = "vegdet/classifier"}
+]
+include = ["training/model.tflite", "training/label_map.json", "training/model_veg_det_edl2.tflite"]
+
+[tool.poetry.scripts]
+vegdet = "vegdet.__main__:main"
+vegclass = "vegdet.classifier:classify"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.6.0"
+tflite-runtime = "^2.11.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

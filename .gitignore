@@ -1,0 +1,6 @@
+.venv/
+convenv/
+**/__pycache__/
+.mypy*
+testenv/
+**/*.zip

@@ -1,0 +1,95 @@
+item {
+    name: "apple",
+    id: 1,
+    display_name: "apple"
+}
+item {
+    name: "apple_rotten",
+    id: 2,
+    display_name: "apple_rotten"
+}
+item {
+    name: "banana",
+    id: 3,
+    display_name: "banana"
+}
+item {
+    name: "banana_rotten",
+    id: 4,
+    display_name: "banana_rotten"
+}
+item {
+    name: "capsicum",
+    id: 5,
+    display_name: "capsicum"
+}
+item {
+    name: "capsicum_rotten",
+    id: 6,
+    display_name: "capsicum_rotten"
+}
+item {
+    name: "guava",
+    id: 7,
+    display_name: "guava"
+}
+item {
+    name: "guava_rotten",
+    id: 8,
+    display_name: "guava_rotten"
+}
+item {
+    name: "lemon",
+    id: 9,
+    display_name: "lemon"
+}
+item {
+    name: "mango",
+    id: 10,
+    display_name: "mango"
+}
+item {
+    name: "mango_rotten",
+    id: 11,
+    display_name: "mango_rotten"
+}
+item {
+    name: "orange",
+    id: 12,
+    display_name: "orange"
+}
+item {
+    name: "orange_rotten",
+    id: 13,
+    display_name: "orange_rotten"
+}
+item {
+    name: "pomegranate",
+    id: 14,
+    display_name: "pomegranate"
+}
+item {
+    name: "pomegranate_rotten",
+    id: 15,
+    display_name: "pomegranate_rotten"
+}
+item {
+    name: "strawberry",
+    id: 16,
+    display_name: "strawberry"
+}
+item {
+    name: "strawberry_rotten",
+    id: 17,
+    display_name: "strawberry_rotten"
+}
+item {
+    name: "tomato",
+    id: 18,
+    display_name: "tomato"
+}
+item {
+    name: "tomato_rotten",
+    id: 19,
+    display_name: "tomato_rotten"
+}
