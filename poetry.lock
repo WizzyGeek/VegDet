@@ -35,7 +35,7 @@ python-versions = ">=3.8"
 
 [[package]]
 name = "opencv-python"
-version = "4.6.0.66"
+version = "4.7.0.68"
 description = "Wrapper package for OpenCV python bindings."
 category = "main"
 optional = false
@@ -43,9 +43,9 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 numpy = [
-    {version = ">=1.21.2", markers = "python_version >= \"3.10\" or python_version >= \"3.6\" and platform_system == \"Darwin\" and platform_machine == \"arm64\""},
+    {version = ">=1.21.0", markers = "python_version <= \"3.9\" and platform_system == \"Darwin\" and platform_machine == \"arm64\""},
     {version = ">=1.19.3", markers = "python_version >= \"3.6\" and platform_system == \"Linux\" and platform_machine == \"aarch64\" or python_version >= \"3.9\""},
-    {version = ">=1.14.5", markers = "python_version >= \"3.7\""},
+    {version = ">=1.17.0", markers = "python_version >= \"3.7\""},
     {version = ">=1.17.3", markers = "python_version >= \"3.8\""},
 ]
 
@@ -78,8 +78,8 @@ python-versions = ">=3.7"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.10"
-content-hash = "51f12b9141555a0e1901f9f09c21e995d4dc4cc75d52fe27353904a3c685c3bf"
+python-versions = "3.9"
+content-hash = "a6d9dd478738ad29b21ecf7bce16128c46079c56d35f0943228781e10fe08a35"
 
 [metadata.files]
 mypy = []
